@@ -20,8 +20,11 @@
 
 .sidebar {
   background-color: var(--color-grey-dark-2);
+
+  flex: 0 0 18%; //grow shrink basis
 }
 
 .hotel-view {
-
+  background-color: gold;
+  flex: 1;
 }
